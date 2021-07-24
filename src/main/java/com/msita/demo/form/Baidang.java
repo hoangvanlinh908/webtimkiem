@@ -127,7 +127,13 @@ public class Baidang {
         ChiTietCV = chiTietCV;
     }
 
+    public String getHinhAnh() {
+        return HinhAnh;
+    }
 
+    public void setHinhAnh(String hinhAnh) {
+        HinhAnh = hinhAnh;
+    }
     public String getTinhTrang() {
         return TinhTrang;
     }
