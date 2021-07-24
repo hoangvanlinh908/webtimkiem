@@ -1,15 +1,13 @@
 package com.msita.demo.form;
 
-import lombok.*;
+
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
 @Table(name = "nganhnghe")
-@Data
-@Getter
-@Setter
+
 
 public class NganhNghe {
     @Id

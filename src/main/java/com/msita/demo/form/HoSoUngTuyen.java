@@ -1,6 +1,6 @@
 package com.msita.demo.form;
 
-import lombok.*;
+
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "hosoungtuyen")
-@Data
+
 public class HoSoUngTuyen {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

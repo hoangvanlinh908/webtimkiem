@@ -1,7 +1,6 @@
 package com.msita.demo.form;
 
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+
 
 public class search {
     private  String TieuDe;

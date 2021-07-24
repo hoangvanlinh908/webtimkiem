@@ -1,6 +1,6 @@
 package com.msita.demo.models;
 
-import lombok.Data;
+
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.Entity;
@@ -12,7 +12,7 @@ import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "nhatuyendung")
-@Data
+
 
 public class NhaTuyenDungModel {
 

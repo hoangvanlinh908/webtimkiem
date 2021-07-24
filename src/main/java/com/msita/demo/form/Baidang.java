@@ -3,15 +3,14 @@ package com.msita.demo.form;
 
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.format.annotation.DateTimeFormat;
-
 import javax.persistence.*;
 import java.util.Date;
-import java.util.List;
 
-import lombok.*;
+
+
 @Entity
 @Table(name = "baidang")
-@Data
+
 public class Baidang {
     @Id
     @GeneratedValue(generator = "my_generator")

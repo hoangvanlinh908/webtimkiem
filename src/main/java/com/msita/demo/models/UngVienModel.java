@@ -1,6 +1,6 @@
 package com.msita.demo.models;
 
-import lombok.*;
+
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "ungvien")
-@Data
+
 
 public class UngVienModel {
     @Id

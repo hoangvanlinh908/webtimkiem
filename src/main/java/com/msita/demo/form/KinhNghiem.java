@@ -1,6 +1,6 @@
 package com.msita.demo.form;
 
-import lombok.*;
+
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Entity
 @Table(name = "kinhnghiem")
-@Data
+
 
 public class KinhNghiem {
     @Id
