@@ -2,9 +2,7 @@ package com.msita.demo.controller.User;
 
 import com.msita.demo.controller.BaseController;
 import com.msita.demo.form.Baidang;
-import com.msita.demo.form.NhaTuyenDung;
 import com.msita.demo.form.search;
-import com.msita.demo.models.BaidangModel;
 import com.msita.demo.services.NhaTuyenDungServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -13,11 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import javax.servlet.http.HttpSession;
 import java.util.List;
-import java.util.Optional;
-
 @Controller
 public class WebSearchController extends BaseController {
     @Autowired

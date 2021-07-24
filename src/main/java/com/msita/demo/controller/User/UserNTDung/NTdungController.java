@@ -1,7 +1,5 @@
 package com.msita.demo.controller.User.UserNTDung;
-
 import com.msita.demo.controller.BaseController;
-import com.msita.demo.form.Baidang;
 import com.msita.demo.form.BaidangForm;
 import com.msita.demo.form.HoSoUngTuyen;
 import com.msita.demo.form.NhaTuyenDung;
@@ -9,7 +7,6 @@ import com.msita.demo.models.BaidangModel;
 import com.msita.demo.models.NhaTuyenDungModel;
 import com.msita.demo.services.NhaTuyenDungServices;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.web.servlet.server.Session;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -18,8 +15,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-
-import javax.jws.soap.SOAPBinding;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.io.IOException;
