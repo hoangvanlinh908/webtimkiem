@@ -55,6 +55,14 @@ public class Baidang {
 //    @OneToMany(mappedBy ="baidang",fetch = FetchType.EAGER)
 //    private List<HoSoUngTuyen> hoSoUngTuyens;
 
+    public String getHinhAnh() {
+        return HinhAnh;
+    }
+
+    public void setHinhAnh(String hinhAnh) {
+        HinhAnh = hinhAnh;
+    }
+
     public String getMaBaiDang() {
         return MaBaiDang;
     }
@@ -127,13 +135,7 @@ public class Baidang {
         ChiTietCV = chiTietCV;
     }
 
-    public String getHinhAnh() {
-        return HinhAnh;
-    }
 
-    public void setHinhAnh(String hinhAnh) {
-        HinhAnh = hinhAnh;
-    }
     public String getTinhTrang() {
         return TinhTrang;
     }
